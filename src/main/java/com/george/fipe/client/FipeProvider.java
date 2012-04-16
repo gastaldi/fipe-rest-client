@@ -4,7 +4,7 @@ import org.jboss.resteasy.client.ProxyFactory;
 import org.jboss.resteasy.plugins.providers.RegisterBuiltin;
 import org.jboss.resteasy.spi.ResteasyProviderFactory;
 
-import com.george.fipe.service.FipeRestService;
+import com.george.fipe.uol.service.FipeRestService;
 
 public class FipeProvider {
 
@@ -12,7 +12,7 @@ public class FipeProvider {
 	RegisterBuiltin.register(ResteasyProviderFactory.getInstance());
     }
 
-    public static FipeRestService getService() {
+    public static FipeRestService getUOLService() {
 	return ProxyFactory.create(FipeRestService.class, "http://tabela.carros.uol.com.br/");
     }
 

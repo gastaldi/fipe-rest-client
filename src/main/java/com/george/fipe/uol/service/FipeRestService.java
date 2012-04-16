@@ -1,4 +1,4 @@
-package com.george.fipe.service;
+package com.george.fipe.uol.service;
 
 import java.util.List;
 
@@ -10,10 +10,10 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 
-import com.george.fipe.jaxb.Ano;
-import com.george.fipe.jaxb.Fipe;
-import com.george.fipe.jaxb.Marca;
-import com.george.fipe.jaxb.Modelo;
+import com.george.fipe.uol.jaxb.Ano;
+import com.george.fipe.uol.jaxb.Fipe;
+import com.george.fipe.uol.jaxb.Marca;
+import com.george.fipe.uol.jaxb.Modelo;
 
 @Path("/app/client")
 public interface FipeRestService {

@@ -7,15 +7,15 @@ import java.util.List;
 import org.junit.Test;
 
 import com.george.fipe.client.FipeProvider;
-import com.george.fipe.jaxb.Ano;
-import com.george.fipe.jaxb.Fipe;
-import com.george.fipe.jaxb.Marca;
-import com.george.fipe.jaxb.Modelo;
-import com.george.fipe.service.FipeRestService;
+import com.george.fipe.uol.jaxb.Ano;
+import com.george.fipe.uol.jaxb.Fipe;
+import com.george.fipe.uol.jaxb.Marca;
+import com.george.fipe.uol.jaxb.Modelo;
+import com.george.fipe.uol.service.FipeRestService;
 
 public class FipeRestServiceTest {
 
-    private FipeRestService service = FipeProvider.getService();
+    private FipeRestService service = FipeProvider.getUOLService();
 
     @Test
     public void testMarcas() throws Exception {

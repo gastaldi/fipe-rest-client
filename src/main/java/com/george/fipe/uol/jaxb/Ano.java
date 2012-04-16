@@ -1,4 +1,4 @@
-package com.george.fipe.jaxb;
+package com.george.fipe.uol.jaxb;
 
 import java.util.Arrays;
 
