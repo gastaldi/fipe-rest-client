@@ -1,0 +1,7 @@
+Este projeto visa consumir o serviço REST em http://carros.uol.com.br/fipe/ 
+Veja o test case para maiores informações
+
+
+Bibliotecas utilizadas : 
+
+- RestEasy 2.3.2
